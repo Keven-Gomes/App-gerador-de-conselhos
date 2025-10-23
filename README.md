@@ -1,29 +1,43 @@
-# README.md
-
 # Advice Generator App
 
-Este projeto é um aplicativo gerador de conselhos, desenvolvido como parte de um desafio no Frontend Mentor. O aplicativo exibe conselhos aleatórios e é responsivo, adaptando-se a diferentes tamanhos de tela.
+Aplicativo gerador de conselhos (Advice Generator App) criado como desafio do Frontend Mentor. Exibe conselhos aleatórios em um cartão responsivo com um botão para gerar um novo conselho.
 
-## Estrutura do Projeto
+## Visão geral
+- Projeto focado em HTML e CSS responsivo.
+- Estrutura simples: um cartão central com texto do conselho, separador gráfico e botão com ícone.
 
-O projeto contém os seguintes arquivos:
+## Como executar
+1. Clonar ou baixar o repositório.
+2. Abrir `index.html` diretamente no navegador ou rodar um servidor local para melhores resultados.
 
-- `src/css/reset.css`: Este arquivo contém estilos de redefinição que normalizam as propriedades CSS padrão dos navegadores, garantindo uma base consistente para o design.
+Exemplos de servidor rápido:
+- Com Python 3:
+  - Abra o terminal na pasta do projeto e execute:
+    - `python -m http.server 8000`
+  - Acesse: `http://localhost:8000`
+- Com extensão Live Server (VS Code): clicar em "Go Live".
 
-- `src/css/responsive.css`: Este arquivo contém as media queries para tornar o design responsivo. Ele inclui regras CSS que alteram o layout e os estilos com base na largura da tela.
+## Estrutura de arquivos
+- src/
+  - css/
+    - reset.css
+    - variables.css
+    - style.css
+    - responsive.css
+  - images/ (ícones e imagens do design)
+- index.html
+- README.md
 
-- `src/css/style.css`: Este arquivo contém os estilos principais do aplicativo, definindo a aparência e o layout dos elementos.
+## Tecnologias
+- HTML5
+- CSS3 (com layout responsivo)
 
-- `src/css/variables.css`: Este arquivo contém variáveis CSS que definem cores, fontes e outros valores reutilizáveis no projeto.
+## Notas
+- Este repositório contém apenas a versão estática do layout. Para adicionar geração dinâmica de conselhos, integrar com a API pública do Advice Slip (https://api.adviceslip.com) via JavaScript.
+- Imagens e assets estão em `src/images`.
 
-- `index.html`: Este arquivo é o ponto de entrada do aplicativo. Ele contém a estrutura HTML e links para os arquivos CSS.
+## Créditos
+Design inspirado por desafios do Frontend Mentor.
 
-## Instruções de Uso
-
-1. Clone o repositório ou faça o download dos arquivos.
-2. Abra o arquivo `index.html` em um navegador para visualizar o aplicativo.
-3. O aplicativo é responsivo e se ajusta a diferentes tamanhos de tela.
-
-## Design
-
-O design do aplicativo foi inspirado em desafios de design da comunidade Frontend Mentor. O objetivo é criar uma interface limpa e intuitiva que ofereça uma experiência agradável ao usuário.
+## Licença
+Uso livre para estudo e prática. Ajuste conforme necessário para uso público.
